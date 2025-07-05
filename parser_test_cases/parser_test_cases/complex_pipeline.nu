@@ -1,0 +1,1 @@
+let a = 'nutest'; ls (pwd | path dirname | path join nutest) --all | each {|i| $i.name | str upcase} | first 2 | enumerate | table --theme rounded

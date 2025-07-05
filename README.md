@@ -82,3 +82,34 @@ echo "Working on <keybinding>"  # Also suggests: feature/new-api
 ```
 
 The system doesn't limit suggestions to command-specific history—it treats your entire command history as a pool of reusable values.
+
+## Development Resources
+
+### Parser Test Cases (`parser_test_cases/`)
+This directory contains test commands and their corresponding AST outputs for developing the command parser:
+
+- **Complex pipeline example**: `complex_pipeline.nu` demonstrates a sophisticated command with variable assignment, subexpressions, flags, closures, and pipelines
+- **AST outputs**: Both regular and flattened AST formats are provided
+  - `complex_pipeline_ast.json` - Standard nested AST structure
+  - `complex_pipeline_ast_flattened.json` - Simplified linear token array (preferred for parsing)
+- **Generation command**: `ast --flatten --json (open <test_name>.nu) | save <test_name>_ast_flattened.json --force --raw`
+
+The flattened AST format provides clean token arrays with `content`, `shape`, and `span` fields, making it easier to extract:
+- Commands (`shape_internalcall`)
+- Flags (`shape_flag`) 
+- String/numeric values (`shape_string`, `shape_int`)
+- Variables (`shape_variable`)
+- Pipeline structure (`shape_pipe`)
+
+### History Structure (`history_structure/`)
+Documentation and examples of Nushell's history database structure:
+
+- **SQLite schema**: Complete field descriptions for the history table
+- **Sample data**: `history_structure.json` with real history entries
+- **Access patterns**: How to query the history database for parsing
+
+Key fields for completion system:
+- `command_line`: Raw command text to parse with AST
+- `start_timestamp`: For recency-based ranking
+- `exit_status`: Filter successful vs failed commands
+- `cwd`: Context for path-based suggestions

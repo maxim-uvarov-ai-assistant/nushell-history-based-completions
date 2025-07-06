@@ -12,6 +12,12 @@ do $long_command_code | print $in
 # => │ 1 │ /USERS/USER/GIT/NUTEST/.GITHUB │
 # => ╰─#─┴──────────────item──────────────╯
 
+# save word output 
+ast --json (view source $long_command_code | str substring 1..(-2))
+| to json
+| save --raw --force ($base_dir | path join parser_test_cases complex_pipeline_ast_flattened.json)
+
+# save useful flattened output
 ast --flatten (view source $long_command_code | str substring 1..(-2))
 | to json
 | save --raw --force ($base_dir | path join parser_test_cases complex_pipeline_ast_flattened.json)

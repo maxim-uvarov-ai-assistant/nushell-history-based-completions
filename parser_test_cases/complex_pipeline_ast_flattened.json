@@ -1,0 +1,282 @@
+[
+  {
+    "content": "let",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 0,
+      "end": 3
+    }
+  },
+  {
+    "content": "base_dir",
+    "shape": "shape_vardecl",
+    "span": {
+      "start": 4,
+      "end": 12
+    }
+  },
+  {
+    "content": "\"/Users/user/git/nushell-history-based-completions\"",
+    "shape": "shape_string",
+    "span": {
+      "start": 15,
+      "end": 66
+    }
+  },
+  {
+    "content": "cd",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 68,
+      "end": 70
+    }
+  },
+  {
+    "content": "$base_dir",
+    "shape": "shape_variable",
+    "span": {
+      "start": 71,
+      "end": 80
+    }
+  },
+  {
+    "content": "let",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 82,
+      "end": 85
+    }
+  },
+  {
+    "content": "target_dir",
+    "shape": "shape_vardecl",
+    "span": {
+      "start": 86,
+      "end": 96
+    }
+  },
+  {
+    "content": "'nutest'",
+    "shape": "shape_string",
+    "span": {
+      "start": 99,
+      "end": 107
+    }
+  },
+  {
+    "content": "ls",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 109,
+      "end": 111
+    }
+  },
+  {
+    "content": "(",
+    "shape": "shape_block",
+    "span": {
+      "start": 112,
+      "end": 113
+    }
+  },
+  {
+    "content": "pwd",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 113,
+      "end": 116
+    }
+  },
+  {
+    "content": "|",
+    "shape": "shape_pipe",
+    "span": {
+      "start": 117,
+      "end": 118
+    }
+  },
+  {
+    "content": "path dirname",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 119,
+      "end": 131
+    }
+  },
+  {
+    "content": "|",
+    "shape": "shape_pipe",
+    "span": {
+      "start": 132,
+      "end": 133
+    }
+  },
+  {
+    "content": "path join",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 134,
+      "end": 143
+    }
+  },
+  {
+    "content": "$target_dir",
+    "shape": "shape_variable",
+    "span": {
+      "start": 144,
+      "end": 155
+    }
+  },
+  {
+    "content": ")",
+    "shape": "shape_block",
+    "span": {
+      "start": 155,
+      "end": 156
+    }
+  },
+  {
+    "content": "--all",
+    "shape": "shape_flag",
+    "span": {
+      "start": 157,
+      "end": 162
+    }
+  },
+  {
+    "content": "|",
+    "shape": "shape_pipe",
+    "span": {
+      "start": 163,
+      "end": 164
+    }
+  },
+  {
+    "content": "each",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 165,
+      "end": 169
+    }
+  },
+  {
+    "content": "{|i| ",
+    "shape": "shape_closure",
+    "span": {
+      "start": 170,
+      "end": 175
+    }
+  },
+  {
+    "content": "$i",
+    "shape": "shape_variable",
+    "span": {
+      "start": 175,
+      "end": 177
+    }
+  },
+  {
+    "content": "name",
+    "shape": "shape_string",
+    "span": {
+      "start": 178,
+      "end": 182
+    }
+  },
+  {
+    "content": "|",
+    "shape": "shape_pipe",
+    "span": {
+      "start": 183,
+      "end": 184
+    }
+  },
+  {
+    "content": "str upcase",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 185,
+      "end": 195
+    }
+  },
+  {
+    "content": "}",
+    "shape": "shape_closure",
+    "span": {
+      "start": 195,
+      "end": 196
+    }
+  },
+  {
+    "content": "|",
+    "shape": "shape_pipe",
+    "span": {
+      "start": 197,
+      "end": 198
+    }
+  },
+  {
+    "content": "first",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 199,
+      "end": 204
+    }
+  },
+  {
+    "content": "2",
+    "shape": "shape_int",
+    "span": {
+      "start": 205,
+      "end": 206
+    }
+  },
+  {
+    "content": "|",
+    "shape": "shape_pipe",
+    "span": {
+      "start": 207,
+      "end": 208
+    }
+  },
+  {
+    "content": "enumerate",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 209,
+      "end": 218
+    }
+  },
+  {
+    "content": "|",
+    "shape": "shape_pipe",
+    "span": {
+      "start": 219,
+      "end": 220
+    }
+  },
+  {
+    "content": "table",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 221,
+      "end": 226
+    }
+  },
+  {
+    "content": "--theme",
+    "shape": "shape_flag",
+    "span": {
+      "start": 227,
+      "end": 234
+    }
+  },
+  {
+    "content": "rounded",
+    "shape": "shape_string",
+    "span": {
+      "start": 235,
+      "end": 242
+    }
+  }
+]

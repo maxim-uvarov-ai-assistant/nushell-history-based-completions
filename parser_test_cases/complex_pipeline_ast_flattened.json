@@ -1,1 +1,282 @@
-"[\n  {\n    \"content\": \"let\",\n    \"shape\": \"shape_internalcall\",\n    \"span\": {\n      \"start\": 0,\n      \"end\": 3\n    }\n  },\n  {\n    \"content\": \"base_dir\",\n    \"shape\": \"shape_vardecl\",\n    \"span\": {\n      \"start\": 4,\n      \"end\": 12\n    }\n  },\n  {\n    \"content\": \"\\\"/Users/user/git/nushell-history-based-completions\\\"\",\n    \"shape\": \"shape_string\",\n    \"span\": {\n      \"start\": 15,\n      \"end\": 66\n    }\n  },\n  {\n    \"content\": \"cd\",\n    \"shape\": \"shape_internalcall\",\n    \"span\": {\n      \"start\": 68,\n      \"end\": 70\n    }\n  },\n  {\n    \"content\": \"$base_dir\",\n    \"shape\": \"shape_variable\",\n    \"span\": {\n      \"start\": 71,\n      \"end\": 80\n    }\n  },\n  {\n    \"content\": \"let\",\n    \"shape\": \"shape_internalcall\",\n    \"span\": {\n      \"start\": 82,\n      \"end\": 85\n    }\n  },\n  {\n    \"content\": \"target_dir\",\n    \"shape\": \"shape_vardecl\",\n    \"span\": {\n      \"start\": 86,\n      \"end\": 96\n    }\n  },\n  {\n    \"content\": \"'nutest'\",\n    \"shape\": \"shape_string\",\n    \"span\": {\n      \"start\": 99,\n      \"end\": 107\n    }\n  },\n  {\n    \"content\": \"ls\",\n    \"shape\": \"shape_internalcall\",\n    \"span\": {\n      \"start\": 109,\n      \"end\": 111\n    }\n  },\n  {\n    \"content\": \"(\",\n    \"shape\": \"shape_block\",\n    \"span\": {\n      \"start\": 112,\n      \"end\": 113\n    }\n  },\n  {\n    \"content\": \"pwd\",\n    \"shape\": \"shape_internalcall\",\n    \"span\": {\n      \"start\": 113,\n      \"end\": 116\n    }\n  },\n  {\n    \"content\": \"|\",\n    \"shape\": \"shape_pipe\",\n    \"span\": {\n      \"start\": 117,\n      \"end\": 118\n    }\n  },\n  {\n    \"content\": \"path dirname\",\n    \"shape\": \"shape_internalcall\",\n    \"span\": {\n      \"start\": 119,\n      \"end\": 131\n    }\n  },\n  {\n    \"content\": \"|\",\n    \"shape\": \"shape_pipe\",\n    \"span\": {\n      \"start\": 132,\n      \"end\": 133\n    }\n  },\n  {\n    \"content\": \"path join\",\n    \"shape\": \"shape_internalcall\",\n    \"span\": {\n      \"start\": 134,\n      \"end\": 143\n    }\n  },\n  {\n    \"content\": \"$target_dir\",\n    \"shape\": \"shape_variable\",\n    \"span\": {\n      \"start\": 144,\n      \"end\": 155\n    }\n  },\n  {\n    \"content\": \")\",\n    \"shape\": \"shape_block\",\n    \"span\": {\n      \"start\": 155,\n      \"end\": 156\n    }\n  },\n  {\n    \"content\": \"--all\",\n    \"shape\": \"shape_flag\",\n    \"span\": {\n      \"start\": 157,\n      \"end\": 162\n    }\n  },\n  {\n    \"content\": \"|\",\n    \"shape\": \"shape_pipe\",\n    \"span\": {\n      \"start\": 163,\n      \"end\": 164\n    }\n  },\n  {\n    \"content\": \"each\",\n    \"shape\": \"shape_internalcall\",\n    \"span\": {\n      \"start\": 165,\n      \"end\": 169\n    }\n  },\n  {\n    \"content\": \"{|i| \",\n    \"shape\": \"shape_closure\",\n    \"span\": {\n      \"start\": 170,\n      \"end\": 175\n    }\n  },\n  {\n    \"content\": \"$i\",\n    \"shape\": \"shape_variable\",\n    \"span\": {\n      \"start\": 175,\n      \"end\": 177\n    }\n  },\n  {\n    \"content\": \"name\",\n    \"shape\": \"shape_string\",\n    \"span\": {\n      \"start\": 178,\n      \"end\": 182\n    }\n  },\n  {\n    \"content\": \"|\",\n    \"shape\": \"shape_pipe\",\n    \"span\": {\n      \"start\": 183,\n      \"end\": 184\n    }\n  },\n  {\n    \"content\": \"str upcase\",\n    \"shape\": \"shape_internalcall\",\n    \"span\": {\n      \"start\": 185,\n      \"end\": 195\n    }\n  },\n  {\n    \"content\": \"}\",\n    \"shape\": \"shape_closure\",\n    \"span\": {\n      \"start\": 195,\n      \"end\": 196\n    }\n  },\n  {\n    \"content\": \"|\",\n    \"shape\": \"shape_pipe\",\n    \"span\": {\n      \"start\": 197,\n      \"end\": 198\n    }\n  },\n  {\n    \"content\": \"first\",\n    \"shape\": \"shape_internalcall\",\n    \"span\": {\n      \"start\": 199,\n      \"end\": 204\n    }\n  },\n  {\n    \"content\": \"2\",\n    \"shape\": \"shape_int\",\n    \"span\": {\n      \"start\": 205,\n      \"end\": 206\n    }\n  },\n  {\n    \"content\": \"|\",\n    \"shape\": \"shape_pipe\",\n    \"span\": {\n      \"start\": 207,\n      \"end\": 208\n    }\n  },\n  {\n    \"content\": \"enumerate\",\n    \"shape\": \"shape_internalcall\",\n    \"span\": {\n      \"start\": 209,\n      \"end\": 218\n    }\n  },\n  {\n    \"content\": \"|\",\n    \"shape\": \"shape_pipe\",\n    \"span\": {\n      \"start\": 219,\n      \"end\": 220\n    }\n  },\n  {\n    \"content\": \"table\",\n    \"shape\": \"shape_internalcall\",\n    \"span\": {\n      \"start\": 221,\n      \"end\": 226\n    }\n  },\n  {\n    \"content\": \"--theme\",\n    \"shape\": \"shape_flag\",\n    \"span\": {\n      \"start\": 227,\n      \"end\": 234\n    }\n  },\n  {\n    \"content\": \"rounded\",\n    \"shape\": \"shape_string\",\n    \"span\": {\n      \"start\": 235,\n      \"end\": 242\n    }\n  },\n  {\n    \"content\": \"|\",\n    \"shape\": \"shape_pipe\",\n    \"span\": {\n      \"start\": 243,\n      \"end\": 244\n    }\n  },\n  {\n    \"content\": \"embed-in-script\",\n    \"shape\": \"shape_internalcall\",\n    \"span\": {\n      \"start\": 245,\n      \"end\": 260\n    }\n  }\n]"
+[
+  {
+    "content": "let",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 0,
+      "end": 3
+    }
+  },
+  {
+    "content": "base_dir",
+    "shape": "shape_vardecl",
+    "span": {
+      "start": 4,
+      "end": 12
+    }
+  },
+  {
+    "content": "\"/Users/user/git/nushell-history-based-completions\"",
+    "shape": "shape_string",
+    "span": {
+      "start": 15,
+      "end": 66
+    }
+  },
+  {
+    "content": "cd",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 68,
+      "end": 70
+    }
+  },
+  {
+    "content": "$base_dir",
+    "shape": "shape_variable",
+    "span": {
+      "start": 71,
+      "end": 80
+    }
+  },
+  {
+    "content": "let",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 82,
+      "end": 85
+    }
+  },
+  {
+    "content": "target_dir",
+    "shape": "shape_vardecl",
+    "span": {
+      "start": 86,
+      "end": 96
+    }
+  },
+  {
+    "content": "'nutest'",
+    "shape": "shape_string",
+    "span": {
+      "start": 99,
+      "end": 107
+    }
+  },
+  {
+    "content": "ls",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 109,
+      "end": 111
+    }
+  },
+  {
+    "content": "(",
+    "shape": "shape_block",
+    "span": {
+      "start": 112,
+      "end": 113
+    }
+  },
+  {
+    "content": "pwd",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 113,
+      "end": 116
+    }
+  },
+  {
+    "content": "|",
+    "shape": "shape_pipe",
+    "span": {
+      "start": 117,
+      "end": 118
+    }
+  },
+  {
+    "content": "path dirname",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 119,
+      "end": 131
+    }
+  },
+  {
+    "content": "|",
+    "shape": "shape_pipe",
+    "span": {
+      "start": 132,
+      "end": 133
+    }
+  },
+  {
+    "content": "path join",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 134,
+      "end": 143
+    }
+  },
+  {
+    "content": "$target_dir",
+    "shape": "shape_variable",
+    "span": {
+      "start": 144,
+      "end": 155
+    }
+  },
+  {
+    "content": ")",
+    "shape": "shape_block",
+    "span": {
+      "start": 155,
+      "end": 156
+    }
+  },
+  {
+    "content": "--all",
+    "shape": "shape_flag",
+    "span": {
+      "start": 157,
+      "end": 162
+    }
+  },
+  {
+    "content": "|",
+    "shape": "shape_pipe",
+    "span": {
+      "start": 163,
+      "end": 164
+    }
+  },
+  {
+    "content": "each",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 165,
+      "end": 169
+    }
+  },
+  {
+    "content": "{|i| ",
+    "shape": "shape_closure",
+    "span": {
+      "start": 170,
+      "end": 175
+    }
+  },
+  {
+    "content": "$i",
+    "shape": "shape_variable",
+    "span": {
+      "start": 175,
+      "end": 177
+    }
+  },
+  {
+    "content": "name",
+    "shape": "shape_string",
+    "span": {
+      "start": 178,
+      "end": 182
+    }
+  },
+  {
+    "content": "|",
+    "shape": "shape_pipe",
+    "span": {
+      "start": 183,
+      "end": 184
+    }
+  },
+  {
+    "content": "str upcase",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 185,
+      "end": 195
+    }
+  },
+  {
+    "content": "}",
+    "shape": "shape_closure",
+    "span": {
+      "start": 195,
+      "end": 196
+    }
+  },
+  {
+    "content": "|",
+    "shape": "shape_pipe",
+    "span": {
+      "start": 197,
+      "end": 198
+    }
+  },
+  {
+    "content": "first",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 199,
+      "end": 204
+    }
+  },
+  {
+    "content": "2",
+    "shape": "shape_int",
+    "span": {
+      "start": 205,
+      "end": 206
+    }
+  },
+  {
+    "content": "|",
+    "shape": "shape_pipe",
+    "span": {
+      "start": 207,
+      "end": 208
+    }
+  },
+  {
+    "content": "enumerate",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 209,
+      "end": 218
+    }
+  },
+  {
+    "content": "|",
+    "shape": "shape_pipe",
+    "span": {
+      "start": 219,
+      "end": 220
+    }
+  },
+  {
+    "content": "table",
+    "shape": "shape_internalcall",
+    "span": {
+      "start": 221,
+      "end": 226
+    }
+  },
+  {
+    "content": "--theme",
+    "shape": "shape_flag",
+    "span": {
+      "start": 227,
+      "end": 234
+    }
+  },
+  {
+    "content": "rounded",
+    "shape": "shape_string",
+    "span": {
+      "start": 235,
+      "end": 242
+    }
+  }
+]
